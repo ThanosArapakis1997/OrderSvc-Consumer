@@ -1,0 +1,6 @@
+@OrderSvc_Consumer_HostAddress = http://localhost:5247
+
+GET {{OrderSvc_Consumer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
