@@ -49,6 +49,7 @@ namespace ConsumerTesting
             });
 
             var httpClient = new HttpClient();
+            
             var response = await httpClient.PostAsJsonAsync($"{_serviceUri}/discount", discountModel);
 
             var discountModelReturned = await response.Content.ReadFromJsonAsync<DiscountModel>();
