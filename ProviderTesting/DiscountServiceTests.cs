@@ -33,7 +33,7 @@ namespace ProviderTesting
             new PactVerifier(config)
             .ServiceProvider("Discounts", _serviceUri)
             .HonoursPactWith("Orders")
-            .PactUri(@"C:\Users\Dell\AppData\Local\Temp\pact\orders-discounts.json")
+            .PactUri(@"C:\Users\User\Documents\master\microservices\OrderSvc-Consumer\ConsumerTesting\orders-discounts.json")
             .Verify();
         }
         protected virtual void Dispose(bool disposing)

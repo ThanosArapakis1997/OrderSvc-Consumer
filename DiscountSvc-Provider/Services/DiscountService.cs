@@ -4,7 +4,7 @@
     {
         public double GetDiscountAmount(double customerRating)
         {
-            return customerRating / 100;
+            return customerRating / 10;
         }
 
 

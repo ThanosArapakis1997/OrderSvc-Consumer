@@ -26,8 +26,8 @@ namespace ConsumerTesting
             var pactConfig = new PactConfig
             {
                 SpecificationVersion = "2.0.0",
-                PactDir = @"C:\Users\Dell\AppData\Local\Temp\pact",
-                LogDir = @"C:\Users\Dell\AppData\Local\Temp\pact\logs"
+                PactDir = @"C:\Users\User\Documents\master\microservices\OrderSvc-Consumer\ConsumerTesting",
+                LogDir = @"C:\Users\User\Documents\master\microservices\OrderSvc-Consumer\ConsumerTesting\logs"
             };
 
             _pactBuilder = new PactBuilder(pactConfig)
